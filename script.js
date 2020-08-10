@@ -3,6 +3,11 @@ let textboxRef = document.getElementById("food_input");
 let buttonRef = document.querySelector("button");
 let imageDivRef = document.getElementById("gazpacho_image");
 let foodNameRef = document.getElementById("food_name");
+let divRef = document.getElementById("search")
+let divRef2 = document.getElementById("popular");
+let divRef3 = document.getElementById("cuisine");
+let divRef4 = document.getElementById("rec");
+
 // show contentDiv
 buttonRef.onclick = function(event){
     //prevent the page from reloading
@@ -30,3 +35,31 @@ function getReciepe(cuisine) {
         });
 
 }
+
+divRef.onmouseover = function() {
+    divRef.style.color = "black"
+    
+  
+}
+
+divRef.onmouseout = function() {
+    divRef.style.color = "white"
+  
+}
+
+divRef2.onmouseover = function() {
+    divRef.style.color = "black"
+    
+  
+}
+
+divRef2.onmouseout = function() {
+    divRef.style.color = "white";
+  
+}
+
+
+
+
+
+
