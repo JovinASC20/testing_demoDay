@@ -37,27 +37,46 @@ function getReciepe(cuisine) {
 }
 
 divRef.onmouseover = function() {
-    divRef.style.color = "black"
+    divRef.style.color = "black";
     
   
 }
 
 divRef.onmouseout = function() {
-    divRef.style.color = "white"
+    divRef.style.color = "white";
   
 }
 
 divRef2.onmouseover = function() {
-    divRef.style.color = "black"
+    divRef2.style.color = "black";
     
   
 }
 
 divRef2.onmouseout = function() {
-    divRef.style.color = "white";
+    divRef2.style.color = "white";
+  
+}
+divRef3.onmouseover = function() {
+    divRef3.style.color = "black";
+    
   
 }
 
+divRef3.onmouseout = function() {
+    divRef3.style.color = "white";
+  
+}
+divRef4.onmouseover = function() {
+    divRef4.style.color = "black";
+    
+  
+}
+
+divRef4.onmouseout = function() {
+    divRef4.style.color = "white";
+  
+}
 
 
 
